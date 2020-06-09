@@ -1,0 +1,34 @@
+.base-outer-wrapper {
+	width:100%;
+	height:800px;
+	border:1px solid red;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.base-content-area {
+	width:90%;
+	height:auto;
+	position:relative;
+}
+
+.base-one-third {
+	width:33%;
+	height:700px;
+	border:2px solid #333;
+	border-radius:10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.base-two-thirds {
+	width:66%;
+	height:700px;
+	border:2px solid #333;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+

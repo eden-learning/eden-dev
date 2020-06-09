@@ -1,0 +1,56 @@
+.sidebar {
+	width:15%;
+	height:auto;
+	padding-bottom:20px;
+	border-right:1px solid #333;
+	position:absolute;
+	top:0;
+	left:0;
+	background:#e1e5eb;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding:15px;
+}
+
+.variable-container ul {
+	padding-left:0;
+	display:flexbox;
+	text-align:center;
+	list-style-type: none;
+	border:1px solid #333;
+}
+
+.variable-container ul li {
+	list-style-type: none;
+	width:70px;
+	height:70px;
+	margin-top:20px;
+	border:1px solid #333;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12px;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.variable-container ul li::marker {
+	opacity:0;
+	display:none;
+}
+.variable-container ul:first-child {
+	margin-top:40px;
+}
+
+
+#sidebar-logo-container {
+	width:70px;
+	margin:0 auto;
+	display:block;	
+}
+#eden-sidebar-logo {
+	max-width:100%;
+
+}
