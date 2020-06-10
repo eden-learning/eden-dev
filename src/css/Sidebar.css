@@ -13,12 +13,17 @@
 	padding:15px;
 }
 
+.variable-container {
+	margin-top:20px;
+}
+
 .variable-container ul {
 	padding-left:0;
 	display:flexbox;
 	text-align:center;
 	list-style-type: none;
 	border:1px solid #333;
+	padding-bottom:20px;
 }
 
 .variable-container ul li {
@@ -40,16 +45,14 @@
 	opacity:0;
 	display:none;
 }
-.variable-container ul:first-child {
-	margin-top:40px;
-}
-
 
 #sidebar-logo-container {
 	width:70px;
 	margin:0 auto;
-	display:block;	
+	display:block;
+	padding:10px;	
 }
+
 #eden-sidebar-logo {
 	max-width:100%;
 
