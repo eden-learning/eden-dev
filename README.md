@@ -1,3 +1,8 @@
+NOTE FROM BRIAN:
+I have added a "Dev-Notes" folder within the development branch. Feel free to browse each entry and see what I was thinking or what I might be stuck on. Any and all suggestions are welcome and you
+are also asked to write in a summation of each commit in the Dev-Notes just explaining what you were doing. It really helps in the long run. Thanks!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
