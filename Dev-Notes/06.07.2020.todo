@@ -1,0 +1,74 @@
+
+Sunday June 7th, 2020
+
+Developer: Brian Moniz
+
+
+Edit!:
+  - Linux required theinstallation ofyarn to make the create-react-app work. 
+  $ yarn create react-app project-demo
+  - fixed it
+Summary:
+  - Taking the codebase out for a test drive, just cloned it from source repository. Going to try to keep my own modules and components within this repo even if I have to make a seperate sibling directory at the root. I might be missing something but it looks like the "frontend" for this is actually a "frontpage" and that's it. Might be bootstrapping more than I thought. Coding time.
+
+
+
+MAIN COLOR SCHEME:
+  #FCBB10    - DARK YELLOW
+  #ED427A   -  FUSCIA
+  #3DDC97  - SEA GREEN
+  #008ECF    -  BLUE/GREEN
+  #556EFD    - cORNFLOW PURPLE
+
+  Goals:
+
+    ☐ ** Main objective here is to make a Task Creation Component so that Kobby can demo the functionality of this to prospective investors, state changes are not required to be persistent nor anyrthing else need be saved. Static content in the site, it only changes in present time and resets to exactly the same.
+
+    ☐ Get a wireframe skeleton mocked up of what Kobby has drawn up in the Figma docs
+    ☐ Establish standardized way of positioning and sizing elements in the page
+    ☐ Create re-usable CSS/HTML elements so that other devs that follow can be streamlined for success
+
+** Note to self, figure out how to set a key-binding setting for this character ** change the text color of a given line on hotkey
+  Wireframe - Skeleton :
+    - Source of Design: https://docs.google.com/document/d/1ipqK4-snIIn5U919MCxUHtR1u1Xi6oQ8DXFROhu3L6U/edit
+    - Figma UI : https://www.figma.com/file/AqQvCGLGPQ4yfGBM5An7eI/Eden_landing_pages?node-id=974%3A86
+
+
+Current Approach to Achieving MVP:
+  - The persistent state does not need to be saved in a database or chache file for the time being, for now the state will just be fed to the comoponent via a json file/object
+      - Primary Pages
+      1. Create a project   [ current objective ] :
+
+      This is the primary page`` for a teacher to create a project. As mentioned before, the teacher role can be assumed by any user to create a project. Every step is required except noted otherwise. We may prepopulate the first module to give creators a sense of what to do.
+
+      
+      ☐ Project title (or name)
+      
+      Enter project name, alphanumerically.
+      
+      ☐ Project brief
+      
+      Pop up text box with instructions on the project, entered alphanumerically. In the future, it should accept files and attachments.
+`
+      ☐ Toolbar
+
+        Vertical toolbar with capabilities that can be dragged and dropped into workbook active creation space. Let’s call each capability a module.
+        Text. Unlimited text box. Add lines to ease of use.
+
+        ☐ Image. Drag and drop or attach an image or leave blank. Post drag-and-drop, automatically create a caption as a pop up box. 
+
+        ☐ Video. Add a link to a video or leave blank. Post drag-and-drop, ask for a caption as a pop up box.
+
+        ☐ Shape. Ignore for now. In the future, this will have premade shapes. 
+
+        ☐ List. Allow teachers to create a numerical list. Post drag-and-drop, ask for a caption as a pop up box. In the future, other list options such as bullets, roman numerals, alphabets will be added.
+
+        ☐ Templates. In the future, this will have premade templates for science, English, construction, gardening, music projects etc. 
+
+        ☐ Calendar. Option 1 is to make a simple date box mm/dd/yyyy that the teacher fills out. Option 2 is a pop up calendar for the teacher to select the date. This goes into the 
+      
+        ☐ Due date box in the work space.
+
+
+STOP RABBIT HOLING, WASTED 30 MINUTES ON TRYING TO FIGURE OUT WHAT WAS CAUSING THE WEBPACK ERROR WITH THE SVG, NEED AN MVP, SO FOR NOWE JUST SCREENSHOT IT, MAGIC ERASER IT, AND THEN SAVE AS PNG, DONE MOVE ON. FIRWST THING TOMORROW4
+

@@ -1,0 +1,16 @@
+Thursday, June 18th, 2020
+
+Rise With Eden
+
+MVP Rush!
+
+Late night challenge:
+
+  ✔ Finish the TopControl Module with whatever Icons match the best (they'll end up being changed later) @done (20-06-18 03:55)
+
+  ✔  Commit your changes, merge into development, then create new branch called SideBar and add DOM changes through state changes for the buttons @done (20-06-18 03:55)
+
+  ☐  Work on the main content area  (continued from last session) @started(20-06-18 03:55)
+
+    - Ran into a snag here, it turns out that I'm going to have to make the left sidebar buttons onClick="changeTheMode" to whatever that tool box is. Image, Text, Movie, Title etc... I think creating a "mode" prop is the best way to go about it, then you can check against a hierachy state where the mode of the project creation tool is set, and until you unset it you're stuck that way (good thing)
+
