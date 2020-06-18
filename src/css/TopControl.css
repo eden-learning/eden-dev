@@ -25,4 +25,11 @@
 	align-self:center;
 	font-size:30px;
 	color:#333;
+	padding-top:5px;
+}
+
+#project-div {
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }

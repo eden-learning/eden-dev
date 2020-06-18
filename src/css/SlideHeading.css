@@ -1,0 +1,7 @@
+.SlideHeading {
+	position:absolute;
+	z-index:10;
+	background:#fff;
+	padding:5px;
+	left:10px;
+}

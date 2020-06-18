@@ -5,7 +5,7 @@ import '../css/TopControl.css';
 
 import TrashIcon from "./TrashIcon";
 import InfoIcon from "./InfoIcon";
-import ProjectIconTC from "./ProjectIconTC"
+import AccountIcon from "./AccountIcon";
 
 class TopControl extends React.Component {
     	constructor(props) {
@@ -26,12 +26,14 @@ class TopControl extends React.Component {
 									<TrashIcon />
 								</div>
 								<div className="tc-project">
-									<ProjectIconTC />
+									<div className="base-round-x-box base-center-text" id="project-div">X</div>
 								</div>
 								<div className="tc-info">
 									<InfoIcon />
 								</div>
-								<div className="tc-user"></div>
+								<div className="tc-user">
+									<AccountIcon />
+								</div>
 							</div>
 						</div>
 					</nav>

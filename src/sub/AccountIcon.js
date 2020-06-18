@@ -3,15 +3,15 @@ import "../css/Icons.css";
 
 import * as eva from "eva-icons";
 
-function TrashIcon() {
+function AccountIcon() {
   useEffect(() => {
     eva.replace();
   }, []);
   return (
 		<div>
 	        <i 
-	          id="tc-trash-icon"
-	          data-eva="trash-2-outline"
+	          id="tc-info-icon"
+	          data-eva="umbrella-outline"
 	          data-eva-animation="false"
 	          data-eva-hover="false"
 	          data-eva-infinite="false"
@@ -20,4 +20,4 @@ function TrashIcon() {
   		);
 }
 
-export default TrashIcon;
+export default AccountIcon;
