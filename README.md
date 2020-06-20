@@ -3,6 +3,9 @@ I have added a "Dev-Notes" folder within the development branch. Feel free to br
 are also asked to write in a summation of each commit in the Dev-Notes just explaining what you were doing. It really helps in the long run. Thanks!
 
 
+Useful RWeb Based Tools:
+Keyframe Animation Tool: https://keyframes.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
