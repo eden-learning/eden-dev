@@ -2,9 +2,9 @@
 	position:absolute;
 	right:0;
 	top:0;
-	border:1px solid grey;
 	height:100px;
 	width:300px;
+	padding-top:20px;
 }
 
 .horizontal-list {
