@@ -15,8 +15,15 @@ class Sidebar extends React.Component {
 		}
 	}
 	render(){
+		function changeMode(e) {
+			let target = e.target;
+			let newMode = target.dataset.mode;
+			this.setState((state) => {
+				return {"mode":newMode}
+			});
+		}
 		const icons = this.state.icons.map(function(icon){
-			return <li>{icon}</li>;
+			return <li className="icon-mode" data-mode={icon} onClick={changeMode}>{icon}</li>;
 		});
 		return (
 			<div>
