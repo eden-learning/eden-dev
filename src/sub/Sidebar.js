@@ -1,5 +1,6 @@
 import React from 'react';
 import EdenLogo from './EdenLogo';
+import ModeProject from './ModeProject';
 import '../css/Reset.css';
 import '../css/Base.css';
 import '../css/Sidebar.css';
@@ -10,6 +11,7 @@ class Sidebar extends React.Component {
 		this.type = props.type;
 		this.state = {
 			"icons": ["Text", "Image", "Video", "Shape", "List/Graphs", "Templates", "Calendar" ],
+			"mode": "Default"
 		}
 	}
 	render(){
@@ -23,6 +25,7 @@ class Sidebar extends React.Component {
 						<EdenLogo />
 					</div>
 					<div className="variable-container">
+						<ModeProject mode={this.state.mode} />
 						<ul>
 							{icons}
 						</ul>

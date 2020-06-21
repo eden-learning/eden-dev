@@ -1,0 +1,8 @@
+.mode-project-container {
+	padding:5px;
+	background-color:#cceded;
+	position:absolute;
+	top:0;
+	left:5px;
+	border:1px solid white;
+}
