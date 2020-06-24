@@ -9,13 +9,20 @@ class Sidebar extends React.Component {
 		super(props);
 		this.type = props.type;
 		this.state = {
+			"mode": 0,
 			"icons": ["Text", "Image", "Video", "Shape", "List/Graphs", "Templates", "Calendar" ],
 		}
 	}
 	render(){
-		const icons = this.state.icons.map(function(icon){
-			return <li>{icon}</li>;
-		});
+		const icons = this.state.icons.map(function(icon, index){
+			console.log(index);
+			if (index == this.state.mode){
+				return <li className="mode-on">{icon}</li>;
+			}
+			else {
+				return <li data-mode={index} onClick={ () => this.setState({mode : index})} >{icon}</li>;
+			}
+		}, this);
 		return (
 			<div>
 				<div className="sidebar">

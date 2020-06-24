@@ -46,6 +46,12 @@
 	display:none;
 }
 
+.mode-on {
+	color:white;
+	background-color:black;
+	border:2px solid white;
+}
+
 #sidebar-logo-container {
 	width:70px;
 	margin:0 auto;
