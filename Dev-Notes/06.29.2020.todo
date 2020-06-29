@@ -1,0 +1,27 @@
+June 29th, 2020
+
+Rhode Island
+
+
+Solution to the switch statement, ES6, JSX, React problem:
+  - Conditional Rendering... derp
+  https://reactjs.org/docs/conditional-rendering.html
+
+  ☐ Apply this to the current sidebar/content module.
+
+  I think this is the best way to define the different elements asked for in the buttons.
+  function LoginButton(props) {
+    return (
+      <button onClick={props.onClick}>
+        Login
+      </button>
+    );
+  }
+
+  function LogoutButton(props) {
+    return (
+      <button onClick={props.onClick}>
+        Logout
+      </button>
+    );
+  }  
