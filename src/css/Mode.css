@@ -1,7 +1,6 @@
 .text-mode {
 	width:100%;
 	height:auto;
-	background:yellow;
 	position:relative;
 	padding-top:50px;
 }
@@ -15,8 +14,7 @@
 
 .text-value {
 	width:50%;
-	height:500px;
-	margin:0 auto;
+	height:200px;
 	display:block;
 	border:2px solid black;
 }
