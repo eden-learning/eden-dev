@@ -4,6 +4,9 @@ import TextMode from './modes/TextMode';
 import ImageMode from './modes/ImageMode';
 import VideoMode from './modes/VideoMode';
 import ShapeMode from './modes/ShapeMode';
+import GraphMode from './modes/GraphMode';
+import TemplateMode from './modes/TemplateMode';
+import CalendarMode from './modes/CalendarMode';
 import '../css/Reset.css';
 import '../css/Base.css';
 import '../css/Sidebar.css';
@@ -46,6 +49,16 @@ class Sidebar extends React.Component {
 		else if (currentMode == 3) {
 			contentSection = <ShapeMode />;
 		}
+		else if (currentMode == 4) {
+			contentSection = <GraphMode />;
+		}
+		else if (currentMode == 5) {
+			contentSection = <TemplateMode />;
+		}
+		else if (currentMode == 6) {
+			contentSection = <CalendarMode />;
+		}
+
 	
 		return (
 			<div>

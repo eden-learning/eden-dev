@@ -118,3 +118,63 @@ label {
 	padding:5px;
 }
 
+#graphs-heading {
+	font-size:40px;
+	margin-left:20px;
+}
+
+.template-header {
+	font-size:60px;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.template-container {
+	width:75px;
+	height:75px;
+	float:left;
+	margin-left:20px;
+	margin-top:100px;
+	border:2px solid black;
+}
+
+#temp00 {
+	background-image: url("template00.jpeg");
+	background-size:cover;
+}
+
+#temp01 {
+	background-image: url("template01.png");
+	background-size:cover;
+}
+
+#temp02 {
+	background-image: url("template02.png");
+	background-size:cover;
+}
+
+#temp03  {
+	background-image: url("template03.png");
+	background-size:cover;
+}
+
+#calendar-header {
+	margin-top:20px;
+	margin-left:20px;
+	font-size:60px;
+}
+
+#calendar-container {
+	height:200px;
+	width:200px;
+	margin-top:20px;
+	margin-left:20px;
+	background-image: url("calendar.webp");
+	background-size: cover;
+}
+
+.clear {
+	float:none;
+	clear:both;
+	width:100%;
+}

@@ -1,0 +1,10 @@
+.line-chart-container {
+	width:300px;
+	height:300px;
+	position:relative;
+	display:block;
+}
+
+.line-chart-container img {
+	max-width:100%;
+}

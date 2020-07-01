@@ -9,7 +9,10 @@ class ShapeMode extends React.Component {
 	render() {
 		return (
 			<div>
+				<div className="shape-spacer">SHAPES</div>
 				<div className="triangle"></div>
+				<div className="square"></div>
+				<div className="circle"></div>
 			</div>
 			);
 	}
