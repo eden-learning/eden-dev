@@ -25,3 +25,8 @@ Solution to the switch statement, ES6, JSX, React problem:
       </button>
     );
   }  
+
+
+  Ended up trying to create functions in global scope above react component declaration. They work for just static markup being brought into the render function within the component, but as far as passing refs through props up to the random function declared above... it doesn't work, I'm pretty sure it's not designed to be that way, nearly certain.
+
+  inside of src/sub/modes I've place each mode component. This is where they will all be imported from to be included into the si9debar component

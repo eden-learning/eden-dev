@@ -1,0 +1,35 @@
+function ImageMode(props){
+		let thePreview = props.preview;
+		let functionRef = props.ref;
+
+	return (
+		<div className="image-mode">
+			<label for="image">Image</label>
+			<input type="file" placeholder="upload an image" name="image" onChange={functionRef} />
+			{thePreview}
+			<h3>Image Upload Preview is The Broken</h3>
+			<p>Something to do with .bind(this) being actually ()=> function and this now being able to use lexical context, and also React...</p>
+		</div>
+
+		);
+
+
+		fileChangeHandler(event){
+		this.setState({
+			selectedFile: event.target.files[0]
+		})
+
+		let reader = new FileReader();
+
+		reader.onloadend = () => {
+			this.setState({
+				imagePreviewUrl :reader.result
+			});
+		}
+
+		reader.readAsDataURL(event.target.files[0])
+	}
+
+
+			const previewImageUrl = this.state.imagePreviewUrl;
+		const changeFunction = this.fileChangeHandler;
